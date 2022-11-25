@@ -46,9 +46,28 @@ head.classList.remove("head")
 
 
 const ta=document.createElement("h1");
-ta.innerHTML ="i am angular dev"
-const d= document.querySelector("#demo")
+ta.innerHTML="i am angular dev"
+const d=document.querySelector("#demo")
 d.appendChild(ta);
+
+
+
+ const ptage=document.createElement("p");
+ ptage.innerHTML="Title:Automatic solar tracking system";
+  ptage.style.color="white";
+//  ptage.style.backgroundColor="blue";
+ ptage.style.textAlign="center"
+
+ ptage.style.fontFamily="cursive"
+const des=document.querySelector(".des");
+des.appendChild(ptage)
+
+const mainT= document.createElement("h2")
+mainT.innerHTML="Devoloper"
+ptage.style.backgroundColor="blue";
+mainT.style.color="red";
+mainT.style.textAlign="center"
+ptage.insertAdjacentElement("afterbegin", mainT)
 
 
     
