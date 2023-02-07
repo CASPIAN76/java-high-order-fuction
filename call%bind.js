@@ -112,7 +112,7 @@ let pr=function(city, state, country){
 }
 pr.call(User2,"nagpur","mh", "india")
 // User1.fulldetails.call(User2,"Nagpur","mh")
-pr.apply(User1,["raipur","mh"])
+// // pr.apply(User1,["raipur","mh","Gondiyak"])
 
  let newdata1=pr.bind(User2.stname ,"pune", "maharastra"  )
  newdata1()
